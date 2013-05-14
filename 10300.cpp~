@@ -1,0 +1,12 @@
+#include<cstdio>
+
+int main() {
+  int a,b,c,d,e;
+  while((scanf("%d",&a))!=EOF){
+    scanf("%d",b);
+    while(b--) {
+      scanf("%c%d%e",&c,&d,&e);
+      printf("%d\n",c*e);
+    }
+  }
+}
